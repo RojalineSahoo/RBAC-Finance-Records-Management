@@ -85,6 +85,10 @@ const getRecordService = async (userId, query) => {
 
   const records = await Record.find(filter).sort(sortOption);
 
+  if(records.length === 0) {
+    throw new Error ("No records found with this search or filter or type combination.");
+  }
+
   return records;
 };
 
