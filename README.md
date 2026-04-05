@@ -98,12 +98,22 @@ npm run dev
 
 ---
 
+## ⚠️ Error Handling & Status Codes
+
+- 201 → Resource created successfully
+- 400 → Bad request (invalid or missing input)
+- 403 → Forbidden (unauthorized action)
+- 500 → Internal server error
+
+---
+
 ## 🔑 Headers
 
 - `userid` → Required for all requests
 - `adminid` → Required only for viewer dashboard access
 
 ---
+
 
 ## 📌 Notes
 
