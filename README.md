@@ -123,4 +123,4 @@ This project demonstrates backend development concepts including API design, rol
 
 - Pagination for large datasets
 - JWT-based authentication
- Frontend integration
+- Frontend integration
